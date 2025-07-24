@@ -17,14 +17,24 @@ Just plug it in and sail your messages effortlessly. ⛵
 ## How ShiPy feels: 
 
 1. Install ShiPy.
-   `pip install ShiPy`
+```
+pip install ShiPy
+```
 
-2. If you are a first time user, register yourself. 
-  `register("telegram", token= telegram_token, chat_id= chat_id)`
+2. If you are a first time user, register yourself.
+```
+register("telegram", token=telegram_token, chat_id=chat_id, alias = "Yadh")
+```
 
-3. Sail your ship!
-   ` yard = Telegram(telegram_token)
-yard.sail(chat_id, "Hello from ShiPy! 🚀")`
+3. Create an object.
+```
+ship = Telegram("Yadh")
+```
+
+4. Sail your ship!
+```
+ship.sail("Message from ShiPy")
+```
 
 ---
 
