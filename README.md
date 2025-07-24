@@ -3,7 +3,7 @@
 A pip installable that allows to send messages from python to any platform, like telegram, slack etc. Built for plug and play!
 No need to worry about platform-specific APIs or boilerplate code. Just install, register, and sail your messages 
 
-> Note: `ShiPy` is actively under development. This is a refence documentation
+> Note: `ShiPy` is actively under development. This is a refence documentation.
 > v0 will soon be published to PyPI
 
 ## Purpose
